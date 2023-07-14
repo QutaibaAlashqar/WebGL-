@@ -1,0 +1,220 @@
+<html>
+
+<body>
+    <p style="background-color:rgb(206, 219, 25);"> Hiii :) Welcome to Qutaiba ALASHQAR's Project, Hope you got enjoy
+        this, THANKS
+        ;) </p>
+
+    <table border="15">
+        <tr>
+            <td>
+                <div align="padding-left" style="padding-top: 10px ;padding-bottom: 20px">
+                    <canvas id="gbackgroundtablo" width="550" height="550"></canvas>
+                </div>
+            </td>
+
+            <td>
+                <div id="colorpas"
+                    style="width: 700px; height: 270; margin: 50 auto; background: #cfe602;padding-bottom: 20 ;border-radius:20px; border: 1px black solid;display: flexbox">
+                    <div style="padding-left: 20;padding-top: 10">
+                        Which letter do you want to change its color?&nbsp&nbsp&nbsp
+                        Q<input id="checvaribleKcolorQ" type="checkbox" checked>&nbsp&nbsp&nbsp&nbsp&nbsp
+                        R<input id="checvaribleKcolorR" type="checkbox" checked>
+                    </div>
+
+                    <div align="center" style="padding-top: 30px">
+                        <table border="10">
+                            <tr>
+                                <td>
+                                    &nbsp&nbsp Colors
+                                    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                                </td>
+                                <td>
+                                    <input id="colorA" type="range" min="0" max="1" step="0.1" value="1.0" />
+                                </td>
+                                <td>
+                                    <input id="colorB" type="range" min="0" max="1" step="0.1" value="0.7" />
+                                </td>
+                                <td>
+                                    <input id="colorC" type="range" min="0" max="1" step="0.1" value="0.0" />
+                                </td>
+                                <td>
+                                    <input id="colorD" type="range" min="0" max="1" step="0.1" value="1.0" />
+                                </td>
+                            </tr>
+
+                        </table>
+
+                    </div>
+                    <div align="center" style="padding-top: 10px">
+                        <table border="10">
+                            <tr>
+                                <td>
+                                    &nbsp&nbsp Background Color &nbsp&nbsp&nbsp
+                                </td>
+                                <td>
+                                    <input id="bgcolorA" type="range" min="0" max="1" step="0.1" value="0.0" />
+                                </td>
+                                <td>
+                                    <input id="bgcolorB" type="range" min="0" max="1" step="0.1" value="0.0" />
+                                </td>
+                                <td>
+                                    <input id="bgcolorC" type="range" min="0" max="1" step="0.1" value="0.0" />
+                                </td>
+                                <td>
+                                    <input id="bgcolorD" type="range" min="0" max="1" step="0.1" value="1.0" />
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+
+                    <div align="center" style="padding-top: 20px">
+                        <button id="dim">
+                            3D
+                        </button>
+                    </div>
+
+                    <div align="center" style="padding-top: 20px">
+                        <button id="colorone">
+                            Colors
+                        </button>
+                        <button id="dimanistionone">
+                            Dimensions
+                        </button>
+                        <button id="rotationone">
+                            Rotation
+                        </button>
+                    </div>
+                </div>
+
+                <div id="dimanistionbas"
+                    style="width: 700px;height: 220; margin: 0 auto; background: #a74639;padding-bottom: 10 ;border-radius:10px; border: 1px black solid;display: none">
+                    <div style="padding-left: 20;padding-top: 10">
+                        Which letter do you want to change its Dimensions or Size?&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                        Q<input id="checvaribleKscaleQ" type="checkbox" checked>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                        R<input id="checvaribleKscaleR" type="checkbox" checked>
+                    </div>
+
+                    <div align="center" style="padding-top: 20px">
+                        <table width="600" border="10">
+                            <tr>
+                                <td align="center">
+                                    Dimensions
+                                </td>
+                                <td align="center">
+                                    X&nbsp&nbsp&nbsp<input id="scaleX" type="range" min="-1.4" max="1.4" step="0.1"
+                                        value="0" />
+                                </td>
+                                <td align="center">
+                                    Y&nbsp&nbsp&nbsp<input id="scaleY" type="range" min="-1.5" max="1.5" step="0.1"
+                                        value="0" />
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td align="center">
+                                    Size
+                                </td>
+                                <td align="center" colspan="2">
+                                    <input id="olbk" type="range" min="0.0" max="2.0" step="0.1" value="1" />
+                                    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+
+                    <div align="center" style="padding-top: 20px">
+                        <button id="dim1">
+                            3D
+                        </button>
+                    </div>
+
+                    <div align="center" style="padding-top: 20px">
+                        <button id="colortow">
+                            Colors
+                        </button>
+                        <button id="dimanistiontow">
+                            Dimensions
+                        </button>
+                        <button id="rotationtow">
+                            Rotation
+                        </button>
+                    </div>
+                </div>
+
+                <div id="rotasionbas"
+                    style="width: 700px;height: 160; margin: 0 auto; background: #db7311;padding-bottom: 10 ;border-radius:10px; border: 1px black solid;display: none">
+                    <div style="padding-left: 20;padding-top: 10">
+                        Which letter do you want to rotate
+                        it?&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+
+                        Q<input id="checvaribleKrotationQ" type="checkbox" checked>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                        R<input id="checvaribleKrotationR" type="checkbox" checked>
+                    </div>
+
+                    <div align="center" style="padding-top: 20px">
+
+                        <button id="start">
+                            Start
+                        </button>
+                        &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                        <input type="radio" name="choice" value="left" id="left" checked>
+                        <label for="choice-yes">left</label>
+                        <input type="radio" name="choice" value="right" id="right">
+                        <label for="choice-no">right</label>
+                        &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                        speed 0 <input id="slide" type="range" min="0" max="100" step="10" value="50" /> 100
+                    </div>
+
+                    <div align="center" style="padding-top: 20px">
+                        <button id="dim2">
+                            3D
+                        </button>
+                    </div>
+
+                    <div align="center" style="padding-top: 20px">
+
+                        <button id="colorthree">
+                            Colors
+                        </button>
+
+                        <button id="dimanistionthree">
+                            Dimensions
+                        </button>
+
+                        <button id="rotationthree">
+                            Rotation
+                        </button>
+                    </div>
+                </div>
+            </td>
+        </tr>
+    </table>
+</body>
+
+<script id="vertex-shader" type="x-shader/x-vertex">
+       attribute vec4 vPosition;
+       uniform float theta;
+       void main() {
+        gl_Position.x = cos(theta) * vPosition.x - sin(theta) * vPosition.y;
+        gl_Position.y = sin(theta) * vPosition.x + cos(theta) * vPosition.y;
+        gl_Position.z = 0.0;
+        gl_Position.w = 1.0;
+    }
+    
+</script>
+<script id="fragment-shader" type="x-shader/x-fragment">
+       precision mediump float;
+       uniform vec4 myColor;
+       void main() {
+          gl_FragColor = myColor;
+       }
+</script>
+
+<script src="../common/initShaders.js"></script>
+<script src="../common/MV.js"></script>
+<script src="../common/webgl-utils.js"></script>
+<script src="20290036.js"></script>
+
+</html>
